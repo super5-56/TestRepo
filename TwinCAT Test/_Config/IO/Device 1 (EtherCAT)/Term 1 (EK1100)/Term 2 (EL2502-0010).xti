@@ -1,0 +1,223 @@
+<?xml version="1.0"?>
+<TcSmItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.beckhoff.com/schemas/2012/07/TcSmProject" TcSmVersion="1.0" TcVersion="3.1.4024.53" ClassName="CFlbTermDef" SubType="9099">
+	<DataTypes>
+		<DataType>
+			<Name GUID="{18071995-0000-0000-0000-002000000002}" IecBaseType="true" AutoDeleteType="true" HideSubItems="true">ARRAY [0..1] OF BIT</Name>
+			<BitSize>2</BitSize>
+			<BaseType GUID="{18071995-0000-0000-0000-000000000010}">BIT</BaseType>
+			<ArrayInfo>
+				<LBound>0</LBound>
+				<Elements>2</Elements>
+			</ArrayInfo>
+		</DataType>
+		<DataType>
+			<Name GUID="{18071995-0000-0000-0000-002000000008}" IecBaseType="true" AutoDeleteType="true" HideSubItems="true">ARRAY [0..0] OF BYTE</Name>
+			<BitSize>8</BitSize>
+			<BaseType GUID="{18071995-0000-0000-0000-000000000001}">BYTE</BaseType>
+			<ArrayInfo>
+				<LBound>0</LBound>
+				<Elements>1</Elements>
+			</ArrayInfo>
+		</DataType>
+		<DataType>
+			<Name GUID="{18071995-0000-0000-0000-002000000003}" IecBaseType="true" AutoDeleteType="true" HideSubItems="true">ARRAY [0..2] OF BIT</Name>
+			<BitSize>3</BitSize>
+			<BaseType GUID="{18071995-0000-0000-0000-000000000010}">BIT</BaseType>
+			<ArrayInfo>
+				<LBound>0</LBound>
+				<Elements>3</Elements>
+			</ArrayInfo>
+		</DataType>
+	</DataTypes>
+	<ImageDatas>
+		<ImageData Id="1000">424dd6020000000000003600000028000000100000000e0000000100180000000000a0020000120b0000120b00000000000000000000ff00ffff00ffff00ffff00ffff00ffff00ff808080808080808080808080808080ff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffc0c0c0000000c0c0c0000000808080ff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffc0c0c000ffffc0c0c000ffff808080ff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffc0c0c0c0c0c0c0c0c0c0c0c0808080ff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffc0c0c0000000c0c0c0000000808080ff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffc0c0c0ff0000c0c0c0ff0000808080ff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffc0c0c0c0c0c0c0c0c0c0c0c0808080ff00ffff00ffff00ffff00ffff00ff0000ff0000ff0000ff0000ff0000ff0000ffc0c0c0000000c0c0c0000000808080ff00ffff00ffff00ffff00ffff00ff0000ff0000ff0000ff0000ff0000ff0000ffc0c0c00000ffc0c0c00000ff808080ff00ffff00ffff00ffff00ffff00ff0000ff0000ff0000ff0000ff0000ff0000ffc0c0c0c0c0c0c0c0c0c0c0c0808080ff00ffff00ffff00ffff00ffff00ff0000ff0000ff0000ff0000ff0000ff0000ffc0c0c0000000c0c0c0000000808080ff00ffff00ffff00ffff00ffff00ff0000ff0000ff0000ff0000ff0000ff0000ffc0c0c0c0c0c0c0c0c0c0c0c0808080ff00ffff00ffff00ffff00ffff00ff0000ff0000ff0000ff0000ff0000ff0000ffc0c0c0008000c0c0c0008000808080ff00ffff00ffff00ffff00ffff00ff0000ff0000ff0000ff0000ff0000ff0000ffc0c0c0c0c0c0c0c0c0c0c0c0808080ff00ffff00ffff00ffff00ffff00ff</ImageData>
+	</ImageDatas>
+	<Box Id="2" BoxType="9099" BoxFlags="#x00000020">
+		<Name>__FILENAME__</Name>
+		<ImageId>1000</ImageId>
+		<EtherCAT SlaveType="2" PdiType="#x0405" MboxDataLinkLayer="true" StateMBoxPolling="true" CycleMBoxPollingTime="0" CoeType="39" FoeType="1" VendorId="#x00000002" ProductCode="#x09c63052" RevisionNo="#x0014000a" InfoDataAddr="true" RepeatSupport="true" TimeoutMailbox2="2000" CheckRevisionNoType="3" PortPhys="51" MaxSlotCount="256" MaxSlotGroupCount="1" SlotPdoIncrement="1" SlotIndexIncrement="16" Type="EL2502-0010 2 Ch. PWM output, 24V, 2 Ch DC Time Stamp" Desc="EL2502-0010">
+			<SyncMan>001080002600010001000000400080008000001026010000</SyncMan>
+			<SyncMan>801080002200010002000000400080008000801022010000</SyncMan>
+			<SyncMan>00110e002400010003000000000000001c00001124010000</SyncMan>
+			<SyncMan>90110a002000010004000000000000001400901120010000</SyncMan>
+			<Fmmu>0000000000000000001100020100000001000000000000000000000000000000</Fmmu>
+			<Fmmu>0000000000000000901100010100000002000000000000000000000000000000</Fmmu>
+			<Fmmu>00000000000000000d0800010100000003000000000000000000000000000000</Fmmu>
+			<BootStrapData>0010f400f410f400</BootStrapData>
+			<DcMode>4672656552756e0000000000000000004672656552756e20776974682044432d54696d65000000000000000000000000000000000000000000000000000000000100000000000000000000000000000000000000000000000000000000000000</DcMode>
+			<MBoxUserCmdData>004003000a00000000000000030010000000000000000000000000000000000020f3100502000000010000</MBoxUserCmdData>
+			<Pdo Name="PWM Inputs Channel 1" Index="#x1a00" Flags="#x0010" SyncMan="3">
+				<Entry Name="Status__Overtemperature" Index="#x6000" Sub="#x01">
+					<Type>BIT</Type>
+				</Entry>
+				<Entry Name="Status__">
+					<Type GUID="{18071995-0000-0000-0000-002000000002}">ARRAY [0..1] OF BIT</Type>
+				</Entry>
+				<Entry Name="Status__Short Circuit to 24 V" Index="#x6000" Sub="#x04">
+					<Type>BIT</Type>
+				</Entry>
+				<Entry Name="Status__Feedback PWM" Index="#x6000" Sub="#x05">
+					<Type>BIT</Type>
+					<Comment><![CDATA[Toggels with DC Events]]></Comment>
+				</Entry>
+				<Entry Name="Status__Err. Start Time" Index="#x6000" Sub="#x06">
+					<Type>BIT</Type>
+				</Entry>
+				<Entry Name="Status__">
+					<Type GUID="{18071995-0000-0000-0000-002000000002}">ARRAY [0..1] OF BIT</Type>
+				</Entry>
+				<Entry Name="Status__">
+					<Type GUID="{18071995-0000-0000-0000-002000000008}">ARRAY [0..0] OF BYTE</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="PWM SysTime Channel 1" Index="#x1a01" Flags="#x0010" SyncMan="3">
+				<Entry Name="SysTime" Index="#x6001" Sub="#x11">
+					<Type>ULINT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="PWM Inputs Channel 2" Index="#x1a02" Flags="#x0010">
+				<Entry Name="Status__Overtemperature" Index="#x6010" Sub="#x01">
+					<Type>BIT</Type>
+				</Entry>
+				<Entry Name="Status__">
+					<Type GUID="{18071995-0000-0000-0000-002000000002}">ARRAY [0..1] OF BIT</Type>
+				</Entry>
+				<Entry Name="Status__Short Circuit to 24 V" Index="#x6010" Sub="#x04">
+					<Type>BIT</Type>
+				</Entry>
+				<Entry Name="Status__Feedback PWM" Index="#x6010" Sub="#x05">
+					<Type>BIT</Type>
+					<Comment><![CDATA[Toggels with DC Events]]></Comment>
+				</Entry>
+				<Entry Name="Status__Err. Start Time" Index="#x6010" Sub="#x06">
+					<Type>BIT</Type>
+				</Entry>
+				<Entry Name="Status__">
+					<Type GUID="{18071995-0000-0000-0000-002000000002}">ARRAY [0..1] OF BIT</Type>
+				</Entry>
+				<Entry Name="Status__">
+					<Type GUID="{18071995-0000-0000-0000-002000000008}">ARRAY [0..0] OF BYTE</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="PWM SysTime Channel 2" Index="#x1a03" Flags="#x0010">
+				<Entry Name="SysTime" Index="#x6001" Sub="#x11">
+					<Type>ULINT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="PWM Outputs Channel 1" Index="#x1600" InOut="1" Flags="#x0010">
+				<ExcludePdo>#x1601</ExcludePdo>
+				<ExcludePdo>#x1602</ExcludePdo>
+				<ExcludePdo>#x1603</ExcludePdo>
+				<Entry Name="PWM output" Index="#x7000" Sub="#x11">
+					<Type>UINT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="PWM Per. Outputs Channel 1" Index="#x1601" InOut="1" Flags="#x0010">
+				<ExcludePdo>#x1600</ExcludePdo>
+				<ExcludePdo>#x1602</ExcludePdo>
+				<ExcludePdo>#x1603</ExcludePdo>
+				<Entry Name="PWM output" Index="#x7000" Sub="#x11">
+					<Type>UINT</Type>
+				</Entry>
+				<Entry Name="PWM period" Index="#x7000" Sub="#x12">
+					<Type>UINT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="PWM Per, DC Outputs Channel 1" Index="#x1603" InOut="1" Flags="#x0010" SyncMan="2">
+				<ExcludePdo>#x1600</ExcludePdo>
+				<ExcludePdo>#x1601</ExcludePdo>
+				<ExcludePdo>#x1602</ExcludePdo>
+				<Entry Name="Ctrl__Activate permanent" Index="#x7000" Sub="#x01">
+					<Type>BIT</Type>
+				</Entry>
+				<Entry Name="Ctrl__Activate DC start time" Index="#x7000" Sub="#x02">
+					<Type>BIT</Type>
+				</Entry>
+				<Entry Name="Ctrl__DC Immediately" Index="#x7000" Sub="#x03">
+					<Type>BIT</Type>
+				</Entry>
+				<Entry Name="Ctrl__ErrAck" Index="#x7000" Sub="#x04">
+					<Type>BIT</Type>
+					<Comment><![CDATA[Reset DC error counter and]]></Comment>
+				</Entry>
+				<Entry Name="Ctrl__DCSyncOutCh2" Index="#x7000" Sub="#x05">
+					<Type>BIT</Type>
+					<Comment><![CDATA[In DC Mode output Ch2 is toggelt with DC Event]]></Comment>
+				</Entry>
+				<Entry Name="Ctrl__">
+					<Type GUID="{18071995-0000-0000-0000-002000000003}">ARRAY [0..2] OF BIT</Type>
+				</Entry>
+				<Entry Name="Ctrl__">
+					<Type GUID="{18071995-0000-0000-0000-002000000008}">ARRAY [0..0] OF BYTE</Type>
+				</Entry>
+				<Entry Name="PWM output" Index="#x7000" Sub="#x11">
+					<Type>UINT</Type>
+				</Entry>
+				<Entry Name="PWM period" Index="#x7000" Sub="#x12">
+					<Type>UINT</Type>
+				</Entry>
+				<Entry Name="DC start time" Index="#x7000" Sub="#x13">
+					<Type>ULINT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="PWM Outputs Channel 2" Index="#x1604" InOut="1" Flags="#x0010">
+				<ExcludePdo>#x1605</ExcludePdo>
+				<ExcludePdo>#x1606</ExcludePdo>
+				<ExcludePdo>#x1607</ExcludePdo>
+				<Entry Name="PWM output" Index="#x7010" Sub="#x11">
+					<Type>UINT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="PWM Per. Outputs Channel 2" Index="#x1605" InOut="1" Flags="#x0010">
+				<ExcludePdo>#x1604</ExcludePdo>
+				<ExcludePdo>#x1606</ExcludePdo>
+				<ExcludePdo>#x1607</ExcludePdo>
+				<Entry Name="PWM output" Index="#x7010" Sub="#x11">
+					<Type>UINT</Type>
+				</Entry>
+				<Entry Name="PWM period" Index="#x7010" Sub="#x12">
+					<Type>UINT</Type>
+				</Entry>
+			</Pdo>
+			<Pdo Name="PWM Per, DC Outputs Channel 2" Index="#x1607" InOut="1" Flags="#x0010">
+				<ExcludePdo>#x1604</ExcludePdo>
+				<ExcludePdo>#x1605</ExcludePdo>
+				<ExcludePdo>#x1606</ExcludePdo>
+				<Entry Name="Ctrl__Activate permanent" Index="#x7010" Sub="#x01">
+					<Type>BIT</Type>
+				</Entry>
+				<Entry Name="Ctrl__Activate DC start time" Index="#x7010" Sub="#x02">
+					<Type>BIT</Type>
+				</Entry>
+				<Entry Name="Ctrl__DC Immediately" Index="#x7010" Sub="#x03">
+					<Type>BIT</Type>
+				</Entry>
+				<Entry Name="Ctrl__ErrAck" Index="#x7010" Sub="#x04">
+					<Type>BIT</Type>
+					<Comment><![CDATA[Reset DC error counter and]]></Comment>
+				</Entry>
+				<Entry Name="Ctrl__DCSyncOutCh1" Index="#x7010" Sub="#x05">
+					<Type>BIT</Type>
+					<Comment><![CDATA[In DC Mode output Ch2 is toggelt with DC Event]]></Comment>
+				</Entry>
+				<Entry Name="Ctrl__">
+					<Type GUID="{18071995-0000-0000-0000-002000000003}">ARRAY [0..2] OF BIT</Type>
+				</Entry>
+				<Entry Name="Ctrl__">
+					<Type GUID="{18071995-0000-0000-0000-002000000008}">ARRAY [0..0] OF BYTE</Type>
+				</Entry>
+				<Entry Name="PWM output" Index="#x7010" Sub="#x11">
+					<Type>UINT</Type>
+				</Entry>
+				<Entry Name="PWM period" Index="#x7010" Sub="#x12">
+					<Type>UINT</Type>
+				</Entry>
+				<Entry Name="DC start time" Index="#x7010" Sub="#x13">
+					<Type>ULINT</Type>
+				</Entry>
+			</Pdo>
+			<CoeProfile ProfileNo="16389001"/>
+			<CoeProfile ProfileNo="16389001"/>
+		</EtherCAT>
+	</Box>
+</TcSmItem>
